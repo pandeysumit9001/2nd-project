@@ -373,3 +373,104 @@
 // }
 
 // else if
+// import java.util.*;
+
+// public class javabasics {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("enter age");
+// int age = sc.nextInt();
+// if (age >= 18) {
+// System.out.println("adult");
+// } else if (age > 13 && age < 18) {
+// System.out.println("teenager");
+// } else {
+// System.out.println("under adult");
+// }
+// }
+
+// }
+
+// INCOME TAX CALCULATOR
+
+// import java.util.*;
+
+// public class javabasics {
+
+// public static void main(String[] args) {
+// System.out.println("enter the income");
+// Scanner sc = new Scanner(System.in);
+
+// int income = sc.nextInt();
+// int tax;
+// if (income < 500000) {
+// tax = 0;
+// } else if (income >= 500000 && income < 1000000) {
+// tax = (int) (income * 0.2);
+// } else {
+// tax = (int) (income * 0.3);
+// }
+// System.out.println("your tax is " + tax);
+// }
+// }
+
+// largest of 3
+
+// import java.util.*;
+
+// public class javabasics {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("enter a");
+// int a = sc.nextInt();
+// System.out.println("enter b");
+// int b = sc.nextInt();
+// System.out.println("enter c");
+// int c = sc.nextInt();
+// if (a >= b && a >= c) {
+// System.out.println("a is largest");
+// } else if (b >= c) {
+// System.out.println("b is largest");
+// } else {
+// System.out.println("c is largest");4
+// }
+
+// }
+// }
+
+// ternary operator
+/**
+ * javabasics
+ */
+// public class javabasics {
+
+// public static void main(String[] args) {
+// int num = 8;
+// String type = ((num % 2) == 0) ? "even" : "odd";
+// System.out.println(type);
+// }
+// }
+
+// public class javabasics {
+
+// public static void main(String[] args) {
+// int a = 8, b = 5;
+// String type = (a >= b) ? "a is big" : "b is big";
+// System.out.println(type);
+// }
+
+// }
+
+// import java.util.*;
+
+// public class javabasics {
+
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// int a = sc.nextInt();
+// int b = sc.nextInt();
+// String type = (a >= b) ? "a is big" : "b is big";
+// System.out.println(type);
+
+// }
+// }
